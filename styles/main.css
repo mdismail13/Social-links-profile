@@ -29,6 +29,10 @@ body{
     background-color: var(--Grey-900);
 }
 
+body::selection{
+    color: var(--Green);
+}
+
 .card-container{
     display: grid;
     min-height: 100vh;
@@ -83,4 +87,14 @@ body{
     border: none;
     padding-block-start: 0.625rem;
     padding-block-end: 0.625rem;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.card-btn:hover{
+    background-color: var(--Green);
+    color: var(--Grey-800);
+    cursor: pointer;
+}
+.card-btn:active{
+    transform: scale(1.15);
 }
