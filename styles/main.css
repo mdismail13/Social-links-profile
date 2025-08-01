@@ -30,7 +30,8 @@ body{
 }
 
 body::selection{
-    color: var(--Green);
+    background-color: var(--Green);
+    color: var(--Grey-900);
 }
 
 .card-container{
