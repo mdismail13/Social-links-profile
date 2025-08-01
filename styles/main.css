@@ -43,18 +43,18 @@ body{
     padding: 1.5rem;
     border-radius: 1.25rem;
     text-align: center;
-    gap: 1rem;
+    gap: 0.75rem;
 }
-
 .card-img{
     border-radius: 50%;
     max-width: 4rem;
     max-height: 4rem;
     align-self: center;
+    margin-block-end: 0.75rem;
 }
 .card-title{
     color: var(--White);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: var(--semi-bold);
 }
 .card-sub-title{
@@ -70,12 +70,14 @@ body{
     font-weight: var(--normal);
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 
 .card-btn{
     color: var(--White);
     background-color: var(--Grey-700);
-    font-weight: var(--bold);
+    font-weight: var(--semi-bold);
     border-radius: 0.5rem;
     font-size: var(--font-size-paragraph);
     border: none;
